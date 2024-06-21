@@ -30,3 +30,9 @@ models = {
     'lgb_100': LGBMRegressor(n_estimators=100, learning_rate=0.1, max_depth=3, random_state=0),
     'lgb_200': LGBMRegressor(n_estimators=200, learning_rate=0.05, max_depth=5, random_state=0)
 }
+
+
+'lgb_100': LGBMRegressor(n_estimators=100, learning_rate=0.1, max_depth=3, alpha=0.1, random_state=0),
+'lgb_200': LGBMRegressor(n_estimators=200, learning_rate=0.05, max_depth=5, alpha=0.1, random_state=0),
+'lgb_100_alpha0': LGBMRegressor(n_estimators=100, learning_rate=0.1, max_depth=3, alpha=0, random_state=0),
+'lgb_100_alpha05': LGBMRegressor(n_estimators=100, learning_rate=0.1, max_depth=3, alpha=0.5, random_state=0),
