@@ -24,6 +24,9 @@ ucimlrepo = "^0.0.6"
 statsforecast = "^1.7.4"
 mlforecast = "^0.13.0"
 openpyxl = "^3.1.2"
+tsfeatures = "^0.4.5"
+fpdf = "^1.7.2"
+pillow = "^10.3.0"
 
 
 [tool.poetry.group.dev.dependencies]
