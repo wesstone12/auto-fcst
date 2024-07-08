@@ -18,7 +18,8 @@ from statsforecast.models import (
 )
 import plotly.express as px
 
-st.set_page_config(page_title="Finance AutoML Data Preprocessor", layout="wide")
+st.set_page_config(page_title="Auto Forecast Using Nixtla StatsForecast Library", layout="wide", page_icon="📈")
+
 
 @st.cache_data
 def load_data(file):
@@ -63,7 +64,7 @@ def clear_cache():
     st.cache_data.clear()
 
 def main():
-    st.title("Auto Forecast Using Nixtla StatsForecast Library  ")
+    st.title("Auto Forecast Using Nixtla StatsForecast Library")
     
 
     with st.sidebar:    
