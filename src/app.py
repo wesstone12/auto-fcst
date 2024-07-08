@@ -66,9 +66,9 @@ def main():
     st.title("Auto Forecast Using Nixtla StatsForecast Library  ")
     
 
-    with st.sidebar:
+    with st.sidebar:    
         st.header("Settings")
-        uploaded_file = st.file_uploader("Upload your Excel file", type=["xlsx"])
+        uploaded_file = st.file_uploader("**Upload your Excel file (columns are time, rows are the unique id's)**", type=["xlsx"])
         freq = st.selectbox("Select the frequency of the data:", 
                             ["Daily", "Monthly (Start of the Month)", "Monthly (End of the Month)", "Quarterly", "Yearly"])
         h = st.number_input("Forecast horizon (number of periods):", min_value=1, value=12)

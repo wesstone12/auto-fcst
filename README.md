@@ -8,3 +8,5 @@ Trasform to how Nixtla intakes data and generate some forecasts
 ![alt text](images/image1.png)
 
 this could be a mess we shall see
+
+app: https://wesstone12-auto-forecast-srcapp-5o7qp4.streamlit.app/ 
