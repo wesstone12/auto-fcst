@@ -27,6 +27,7 @@ openpyxl = "^3.1.2"
 tsfeatures = "^0.4.5"
 fpdf = "^1.7.2"
 pillow = "^10.3.0"
+plotly = "^5.22.0"
 
 
 [tool.poetry.group.dev.dependencies]
